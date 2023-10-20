@@ -17,4 +17,15 @@ import pandas as pd
 
 dt1 = pd.read_excel("Car Insurance Claim.xlsx")
 
-# %% data cleaning
+# %% data cleaning and check for NA values
+
+dt1.isna().sum() # No NA values
+
+#%% proba of claims
+
+dt1["proba_of_claims"] = np.round(dt1["Claims Frequency (5 Years)"]/
+                                  dt1["Claims Frequency (5 Years)"].sum(), 4)
+
+#%% descriptive analysis
+
+

@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['deep_learning_project.py', '..\\..\\LDATS2840_MEMOIRE_DATA_SCIENCE\\PROGRAMMING\\PYTHON_thesis\\chapter3.py']
+recent_files = ['deep_learning_project.py', '..\\PRACTICALS\\Examples in Keras\\KERAS_ARNN.py', '..\\PRACTICALS\\Examples in Keras\\KERAS_tornadoes.py']
 
 [main]
 version = 0.2.0
